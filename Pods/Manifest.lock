@@ -1,0 +1,358 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireNetworkActivityLogger (2.4.0):
+    - Alamofire (~> 4.8)
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - AppCenter (4.3.0):
+    - AppCenter/Analytics (= 4.3.0)
+    - AppCenter/Crashes (= 4.3.0)
+  - AppCenter/Analytics (4.3.0):
+    - AppCenter/Core
+  - AppCenter/Core (4.3.0)
+  - AppCenter/Crashes (4.3.0):
+    - AppCenter/Core
+  - Calendar-iOS (0.13)
+  - Connectivity (5.0.0)
+  - Cosmos (23.0.0)
+  - Countly (20.11.1):
+    - Countly/Core (= 20.11.1)
+  - Countly/Core (20.11.1)
+  - DropDown (2.3.13)
+  - DZNEmptyDataSet (1.8.1)
+  - EasyTipView (2.0.4)
+  - FBSDKCoreKit (6.5.2):
+    - FBSDKCoreKit/Basics (= 6.5.2)
+    - FBSDKCoreKit/Core (= 6.5.2)
+  - FBSDKCoreKit/Basics (6.5.2)
+  - FBSDKCoreKit/Core (6.5.2):
+    - FBSDKCoreKit/Basics
+  - FBSDKCoreKit/Swift (6.5.2):
+    - FBSDKCoreKit/Core
+  - FBSDKLoginKit/Login (6.5.2):
+    - FBSDKCoreKit (~> 6.5.2)
+  - FBSDKLoginKit/Swift (6.5.2):
+    - FBSDKCoreKit/Swift (~> 6.5.2)
+    - FBSDKLoginKit/Login
+  - FBSDKShareKit/Share (6.5.2):
+    - FBSDKCoreKit (~> 6.5.2)
+  - FBSDKShareKit/Swift (6.5.2):
+    - FBSDKCoreKit/Swift (~> 6.5.2)
+    - FBSDKShareKit/Share
+  - Firebase/Analytics (8.8.0):
+    - Firebase/Core
+  - Firebase/Core (8.8.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 8.8.0)
+  - Firebase/CoreOnly (8.8.0):
+    - FirebaseCore (= 8.8.0)
+  - Firebase/Messaging (8.8.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 8.8.0)
+  - FirebaseAnalytics (8.8.0):
+    - FirebaseAnalytics/AdIdSupport (= 8.8.0)
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (8.8.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleAppMeasurement (= 8.8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseCore (8.8.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+  - FirebaseCoreDiagnostics (8.8.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+    - nanopb (~> 2.30908.0)
+  - FirebaseInstallations (8.8.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/UserDefaults (~> 7.4)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - FirebaseMessaging (8.8.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleDataTransport (~> 9.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Reachability (~> 7.4)
+    - GoogleUtilities/UserDefaults (~> 7.4)
+    - nanopb (~> 2.30908.0)
+  - GoogleAnalytics (3.20.0)
+  - GoogleAppMeasurement (8.8.0):
+    - GoogleAppMeasurement/AdIdSupport (= 8.8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (8.8.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 8.8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (8.8.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleDataTransport (9.1.0):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (3.1.0):
+    - GoogleMaps (= 3.1.0)
+    - GooglePlaces (= 3.1.0)
+  - GooglePlaces (3.1.0):
+    - GoogleMaps/Base (= 3.1.0)
+  - GoogleSignIn (6.0.2):
+    - AppAuth (~> 1.4)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleUtilities/AppDelegateSwizzler (7.5.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.5.2):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.5.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.5.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.5.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.5.2)"
+  - GoogleUtilities/Reachability (7.5.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.5.2):
+    - GoogleUtilities/Logger
+  - GTMAppAuth (1.2.2):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.0)
+  - Kingfisher (5.7.1)
+  - LanguageManager-iOS (1.2.5)
+  - Localize-Swift (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore (= 3.2.0)
+    - Localize-Swift/UIKit (= 3.2.0)
+  - Localize-Swift/LocalizeSwiftCore (3.2.0)
+  - Localize-Swift/UIKit (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore
+  - lottie-ios (3.2.3)
+  - MaterialShowcase (0.7.3)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - MTBBarcodeScanner (5.0.11)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - netfox (1.19.0)
+  - ObjectMapper (3.5.3)
+  - OneSignal (2.16.6)
+  - PromisesObjC (2.0.0)
+  - ReachabilitySwift (5.0.0)
+  - Result (4.1.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SkeletonView (1.25.1)
+  - SkyFloatingLabelTextField (3.8.0)
+  - SnapKit (4.2.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftMessages (9.0.4):
+    - SwiftMessages/App (= 9.0.4)
+  - SwiftMessages/App (9.0.4)
+  - Toast-Swift (5.0.1)
+  - TrustKit (1.7.0)
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AlamofireNetworkActivityLogger
+  - AppCenter
+  - Calendar-iOS
+  - Connectivity
+  - Cosmos
+  - Countly
+  - DropDown
+  - DZNEmptyDataSet
+  - DZNEmptyDataSet (~> 1.8.1)
+  - EasyTipView (~> 2.0.4)
+  - FBSDKCoreKit/Swift
+  - FBSDKLoginKit/Swift
+  - FBSDKShareKit/Swift
+  - Firebase/Analytics
+  - Firebase/Messaging
+  - GoogleAnalytics
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - GoogleSignIn (~> 6)
+  - Kingfisher (~> 5.7.1)
+  - LanguageManager-iOS
+  - Localize-Swift
+  - lottie-ios
+  - MaterialShowcase (~> 0.7.1)
+  - Moya (~> 13.0)
+  - MTBBarcodeScanner
+  - netfox
+  - ObjectMapper (~> 3.4)
+  - OneSignal (< 3.0, >= 2.11.2)
+  - ReachabilitySwift
+  - RxCocoa (~> 4.4)
+  - RxSwift (~> 4.4)
+  - SkeletonView (~> 1.25.1)
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SnapKit (~> 4.2.0)
+  - SVProgressHUD (~> 2.2.5)
+  - SwiftMessages (~> 9.0.4)
+  - Toast-Swift (~> 5.0.1)
+  - TrustKit
+  - XLPagerTabStrip (~> 9.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireNetworkActivityLogger
+    - AppAuth
+    - AppCenter
+    - Calendar-iOS
+    - Connectivity
+    - Cosmos
+    - Countly
+    - DropDown
+    - DZNEmptyDataSet
+    - EasyTipView
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - GoogleAnalytics
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - GoogleSignIn
+    - GoogleUtilities
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - Kingfisher
+    - LanguageManager-iOS
+    - Localize-Swift
+    - lottie-ios
+    - MaterialShowcase
+    - Moya
+    - MTBBarcodeScanner
+    - nanopb
+    - netfox
+    - ObjectMapper
+    - OneSignal
+    - PromisesObjC
+    - ReachabilitySwift
+    - Result
+    - RxCocoa
+    - RxSwift
+    - SkeletonView
+    - SkyFloatingLabelTextField
+    - SnapKit
+    - SVProgressHUD
+    - SwiftMessages
+    - Toast-Swift
+    - TrustKit
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireNetworkActivityLogger: 6d3398c692d2c5d83b0c58793537860aca1e383d
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  AppCenter: 883369ab78427b0561c688158d689dfe1f993ea9
+  Calendar-iOS: a7bb0e6d2cee372e7e3de98d44d60ac7364be7f3
+  Connectivity: e990703fb8d8db54649ea05facac92000cc0f3eb
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  Countly: df8dcfbbb6979e6ef31f7407d61d24fcbbbdaddf
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  EasyTipView: 4f8beae0a82db2ca4a9b5fd658785fc5f61d296b
+  FBSDKCoreKit: ada5c8a05188daefc9addb985c52b8a1b26da519
+  FBSDKLoginKit: caa165495afa29a12324cb2307fe6e5b33783142
+  FBSDKShareKit: d0538e2385480d8b2901468c80abcf22aeaf2abd
+  Firebase: 629510f1a9ddb235f3a7c5c8ceb23ba887f0f814
+  FirebaseAnalytics: 5506ea8b867d8423485a84b4cd612d279f7b0b8a
+  FirebaseCore: 98b29e3828f0a53651c363937a7f7d92a19f1ba2
+  FirebaseCoreDiagnostics: fe77f42da6329d6d83d21fd9d621a6b704413bfc
+  FirebaseInstallations: 2563cb18a723ef9c6ef18318a49519b75dce613c
+  FirebaseMessaging: 419b5c9d84f294a753c6501d8cfb9ced1ce37304
+  GoogleAnalytics: 01e4c5a04544a3608f93e970ce0817836897c5a5
+  GoogleAppMeasurement: 5ba1164e3c844ba84272555e916d0a6d3d977e91
+  GoogleDataTransport: 85fd18ff3019bb85d3f2c551d04c481dedf71fc9
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  GooglePlacePicker: fa975116ac202ac29822c0a79758ea1c4db5a95f
+  GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
+  GoogleSignIn: fd381840dbe7c1137aa6dc30849a5c3e070c034a
+  GoogleUtilities: 8de2a97a17e15b6b98e38e8770e2d129a57c0040
+  GTMAppAuth: ad5c2b70b9a8689e1a04033c9369c4915bfcbe89
+  GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
+  LanguageManager-iOS: 049345fe4d1c5fbe22af93d438540917f4936359
+  Localize-Swift: 6f4475136bdb0d7b2882ea3d4ea919d70142b232
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  MaterialShowcase: 245a465768dee8cce70fe72674ae2490ac41bfca
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  netfox: efeec1d23406df6cd605212f09a40957bb5654eb
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  OneSignal: 31ec42acc6523e42c05596e0dbc538227ee91fb3
+  PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SkeletonView: 77079530e1348a72f48b79ae30dcb966c1b18b6a
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftMessages: 082ed63613a49fa8e749cd6000bb0a8b9bbc736f
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TrustKit: dac38bb37e49bdfeca41b1a19d020da38017b51c
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+
+PODFILE CHECKSUM: fcf2ea33872b3b783a0fe652b153a1613f23272d
+
+COCOAPODS: 1.11.2
